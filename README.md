@@ -18,7 +18,3 @@ Python · FastAPI · LangGraph · OpenAI/Anthropic APIs · LiveKit · Deepgram �
 ## Open source
 
 Working in Apple's [MLX](https://github.com/ml-explore/mlx-lm) and [Pipecat](https://github.com/pipecat-ai/pipecat) — merged PRs will be listed here.
-
-## Contact
-
-rajansharma9118@gmail.com
