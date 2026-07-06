@@ -1,7 +1,8 @@
 # Rajan Sharma
 
-**CS @ Georgia State (2026)** — I build reliable, well-tested backend systems in Java & Python.
-Open to **Software Engineer & QA internships and new-grad roles**.
+**CS @ Georgia State (2026)** — I build reliable, well-tested systems — backend services in Java/Spring, QA automation, and on-device AI/ML on Apple's platform.
+Open to **SSoftware Engineer, QA, and ML/AI internships and new-grad roles**.
+. 
 
 ## What I build
 A connected suite of production-style backend services (aviation-ops domain):
@@ -15,10 +16,12 @@ A connected suite of production-style backend services (aviation-ops domain):
 
 AI / RAG:
 
+On-device AI:
+
 | Project | What it does | Stack |
 |---|---|---|
-| [switchboard-ai](https://github.com/rajanshxrma/switchboard-ai) | Voice-AI for sales/claims calls | Twilio Media Streams · GPT-4o agents · ML analytics · Azure K8s |
-| [finance-rag](https://github.com/rajanshxrma/finance-rag) | Query bank statements in plain English | RAG · OpenAI · Supabase pgvector |
+| [private-agent](https://github.com/rajanshxrma/private-agent) | Offline macOS AI agent — finds files, schedules events, drafts email | Apple Foundation Models · MLX · AppleScript |
+| [langchain-apple-foundation-models](https://github.com/rajanshxrma/langchain-apple-foundation-models) | LangChain provider for Apple's on-device AI (PyPI) | Python · LangChain |
 
 ## Tools
 **Languages:** Java, Python
@@ -28,4 +31,4 @@ AI / RAG:
 **DevOps:** Docker, Kubernetes, CI/CD, Git
 
 ## Open to
-Software Engineer & QA internships and new-grad roles.
+Software Engineer, QA, and ML/AI internships and new-grad roles.
