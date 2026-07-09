@@ -20,16 +20,22 @@ AI / RAG:
 | [switchboard-ai](https://github.com/rajanshxrma/switchboard-ai) | Voice-AI for sales/claims calls | Twilio Media Streams · GPT-4o agents · ML analytics · Azure K8s |
 | [finance-rag](https://github.com/rajanshxrma/finance-rag) | Query bank statements in plain English | RAG · OpenAI · Supabase pgvector |
 
-On-device AI:
+On-device AI (Apple Foundation Models / MLX):
 
 | Project | What it does | Stack |
 |---|---|---|
-| [private-agent](https://github.com/rajanshxrma/private-agent) | Offline macOS AI agent — finds files, schedules events, drafts email | Apple Foundation Models · MLX · AppleScript |
+| [private-agent](https://github.com/rajanshxrma/private-agent) | Offline macOS AI agent — finds files, schedules events, drafts email, full voice in/out | Apple Foundation Models · MLX · Speech · AppleScript |
+| [lantern](https://github.com/rajanshxrma/lantern) | On-device accessibility agent — describes your screen or camera aloud for low-vision users | Apple Foundation Models · Vision · Swift |
+| [stacks](https://github.com/rajanshxrma/stacks) | On-device semantic search over your local files | Apple NaturalLanguage · Foundation Models |
+| [orchard](https://github.com/rajanshxrma/orchard) | On-device agentic workflow engine — YAML pipelines compiled to LangGraph | LangGraph · Apple Foundation Models · MLX |
 | [langchain-apple-foundation-models](https://github.com/rajanshxrma/langchain-apple-foundation-models) | LangChain provider for Apple's on-device AI (PyPI) | Python · LangChain |
 
+Also contribute directly to Apple's [MLX inference framework](https://github.com/ml-explore/mlx-lm) — a quantization load-fix and a KV-cache memory-safety fix.
+
 ## Tools
-**Languages:** Java, Python
+**Languages:** Java, Python, Swift
 **Backend:** Spring Boot 3, Spring Batch, REST, Kafka
+**AI/On-device:** Apple Foundation Models, MLX, LangGraph, LangChain
 **Data:** PostgreSQL, MongoDB, Flyway, Supabase/pgvector
 **QA:** JUnit 5, REST Assured, Selenium, Testcontainers, Gatling, Allure
 **DevOps:** Docker, Kubernetes, CI/CD, Git
