@@ -24,14 +24,12 @@ On-device & local-first AI (Apple Foundation Models / MLX / MCP):
 
 | Project | What it does | Stack |
 |---|---|---|
-| [private-agent](https://github.com/rajanshxrma/private-agent) | Offline macOS AI agent — finds files, schedules events, drafts email, full voice in/out | Apple Foundation Models · MLX · Speech · AppleScript |
-| [lantern](https://github.com/rajanshxrma/lantern) | On-device accessibility agent — describes your screen or camera aloud for low-vision users | Apple Foundation Models · Vision · Swift |
-| [stacks](https://github.com/rajanshxrma/stacks) | On-device semantic search over your local files | Apple NaturalLanguage · Foundation Models |
+| [keep](https://github.com/rajanshxrma/keep) | Private on-device macOS assistant — acts, searches your files, describes your screen, full voice in/out (merges private-agent, stacks, lantern into one app) | Apple Foundation Models · MLX · Vision · Speech · AppleScript |
 | [orchard](https://github.com/rajanshxrma/orchard) | On-device agentic workflow engine — YAML pipelines compiled to LangGraph | LangGraph · Apple Foundation Models · MLX |
 | [langchain-apple-foundation-models](https://github.com/rajanshxrma/langchain-apple-foundation-models) | LangChain provider for Apple's on-device AI (PyPI) | Python · LangChain |
 | [cadence](https://github.com/rajanshxrma/cadence) | Local-first health engine — correlates WHOOP/Apple Health with git activity and AI usage, personal baselines, on-device narration, served via MCP | MCP · SQLite · OAuth 2.0 · Keychain · Apple Foundation Models |
 
-Also contribute directly to Apple's [MLX inference framework](https://github.com/ml-explore/mlx-lm) — a quantization load-fix and a KV-cache memory-safety fix.
+Also contribute directly to Apple's [MLX inference framework](https://github.com/ml-explore/mlx-lm) — a quantization load-fix, a KV-cache memory-safety fix, and a server reliability fix.
 
 ## Tools
 **Languages:** Java, Python, Swift
