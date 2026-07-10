@@ -20,7 +20,7 @@ AI / RAG:
 | [switchboard-ai](https://github.com/rajanshxrma/switchboard-ai) | Voice-AI for sales/claims calls | Twilio Media Streams · GPT-4o agents · ML analytics · Azure K8s |
 | [finance-rag](https://github.com/rajanshxrma/finance-rag) | Query bank statements in plain English | RAG · OpenAI · Supabase pgvector |
 
-On-device AI (Apple Foundation Models / MLX):
+On-device & local-first AI (Apple Foundation Models / MLX / MCP):
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -29,13 +29,14 @@ On-device AI (Apple Foundation Models / MLX):
 | [stacks](https://github.com/rajanshxrma/stacks) | On-device semantic search over your local files | Apple NaturalLanguage · Foundation Models |
 | [orchard](https://github.com/rajanshxrma/orchard) | On-device agentic workflow engine — YAML pipelines compiled to LangGraph | LangGraph · Apple Foundation Models · MLX |
 | [langchain-apple-foundation-models](https://github.com/rajanshxrma/langchain-apple-foundation-models) | LangChain provider for Apple's on-device AI (PyPI) | Python · LangChain |
+| [cadence](https://github.com/rajanshxrma/cadence) | Local-first health-context engine — WHOOP + Apple Health in one local store, served to AI assistants via MCP | MCP · SQLite · OAuth 2.0 · macOS Keychain |
 
 Also contribute directly to Apple's [MLX inference framework](https://github.com/ml-explore/mlx-lm) — a quantization load-fix and a KV-cache memory-safety fix.
 
 ## Tools
 **Languages:** Java, Python, Swift
 **Backend:** Spring Boot 3, Spring Batch, REST, Kafka
-**AI/On-device:** Apple Foundation Models, MLX, LangGraph, LangChain
+**AI/On-device:** Apple Foundation Models, MLX, LangGraph, LangChain, MCP
 **Data:** PostgreSQL, MongoDB, Flyway, Supabase/pgvector
 **QA:** JUnit 5, REST Assured, Selenium, Testcontainers, Gatling, Allure
 **DevOps:** Docker, Kubernetes, CI/CD, Git
