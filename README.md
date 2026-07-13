@@ -1,7 +1,7 @@
 # Rajan Sharma
 
-**CS @ Georgia State (2026)** — I build reliable, well-tested backend systems in Java & Python.
-Open to **Software Engineer, QA, and ML/AI internships and new-grad roles**.
+**CS @ Georgia State (2026)** — Software Engineer building on-device AI/ML on Apple's platform: Keep (on-device macOS assistant), orchard (agentic workflow engine), cadence (my first MCP server), langchain-apple-foundation-models (first LangChain provider for Apple's on-device models), and 3 merged fixes in Apple's MLX inference framework. Also build reliable, well-tested backend systems in Java & Python.
+Open to **Software Engineer roles focused on AI/ML**.
 
 ## What I build
 A connected suite of production-style backend services (aviation-ops domain):
@@ -40,4 +40,4 @@ Also contribute directly to Apple's [MLX inference framework](https://github.com
 **DevOps:** Docker, Kubernetes, CI/CD, Git
 
 ## Open to
-Software Engineer, QA, and ML/AI internships and new-grad roles.
+Software Engineer roles focused on AI/ML, internships and new-grad.
