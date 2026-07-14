@@ -1,6 +1,6 @@
 # Rajan Sharma
 
-**CS @ Georgia State (2026)** — Software Engineer building on-device AI/ML on Apple's platform: Keep (on-device macOS assistant), orchard (agentic workflow engine), cadence (my first MCP server), langchain-apple-foundation-models (first LangChain provider for Apple's on-device models), and 3 merged fixes in Apple's MLX inference framework. Also build reliable, well-tested backend systems in Java & Python.
+**CS @ Georgia State (2026)** — Software Engineer building on-device AI/ML on Apple's platform: Keep (on-device macOS assistant), orchard (agentic workflow engine), cadence (my first MCP server), maxwell (a neural quantum error-correction decoder in MLX that beats the standard matching decoder), langchain-apple-foundation-models (first LangChain provider for Apple's on-device models), and 3 merged fixes in Apple's MLX inference framework. Also build reliable, well-tested backend systems in Java & Python.
 Open to **Software Engineer roles focused on AI/ML**.
 
 ## What I build
@@ -28,6 +28,7 @@ On-device & local-first AI (Apple Foundation Models / MLX / MCP):
 | [orchard](https://github.com/rajanshxrma/orchard) | On-device agentic workflow engine — YAML pipelines compiled to LangGraph | LangGraph · Apple Foundation Models · MLX |
 | [langchain-apple-foundation-models](https://github.com/rajanshxrma/langchain-apple-foundation-models) | LangChain provider for Apple's on-device AI (PyPI) | Python · LangChain |
 | [cadence](https://github.com/rajanshxrma/cadence) | Local-first health engine — correlates WHOOP/Apple Health with git activity and AI usage, personal baselines, on-device narration, served via MCP | MCP · SQLite · OAuth 2.0 · Keychain · Apple Foundation Models |
+| [maxwell](https://github.com/rajanshxrma/maxwell) | Neural surface-code decoder for quantum error correction — beats minimum-weight perfect matching, trained and benchmarked entirely on-device | MLX · stim · PyMatching · transformer |
 
 Also contribute directly to Apple's [MLX inference framework](https://github.com/ml-explore/mlx-lm) — a quantization load-fix, a KV-cache memory-safety fix, and a server reliability fix.
 
