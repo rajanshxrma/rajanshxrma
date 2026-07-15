@@ -32,6 +32,8 @@ On-device & local-first AI (Apple Foundation Models / MLX / MCP):
 
 Also contribute directly to Apple's [MLX inference framework](https://github.com/ml-explore/mlx-lm) — a quantization load-fix, a KV-cache memory-safety fix, and a server reliability fix.
 
+Also built **Sisyphus**, a private autonomous AI job-application engine — a Claude Code cloud routine that discovers, filters, classifies, and tailors resumes for its own applications with zero external LLM API calls.
+
 ## Tools
 **Languages:** Java, Python, Swift
 **Backend:** Spring Boot 3, Spring Batch, REST, Kafka
