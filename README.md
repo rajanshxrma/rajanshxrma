@@ -27,7 +27,7 @@ On-device & local-first AI (Apple Foundation Models / MLX / MCP):
 | [keep](https://github.com/rajanshxrma/keep) | Private on-device macOS assistant — acts, searches your files, describes your screen, full voice in/out (merges private-agent, stacks, lantern into one app) | Apple Foundation Models · MLX · Vision · Speech · AppleScript |
 | [orchard](https://github.com/rajanshxrma/orchard) | On-device agentic workflow engine — YAML pipelines compiled to LangGraph | LangGraph · Apple Foundation Models · MLX |
 | [langchain-apple-foundation-models](https://github.com/rajanshxrma/langchain-apple-foundation-models) | LangChain provider for Apple's on-device AI (PyPI) | Python · LangChain |
-| [cadence](https://github.com/rajanshxrma/cadence) | Local-first health engine — correlates WHOOP/Apple Health with git activity and AI usage, personal baselines, on-device narration, served via MCP | MCP · SQLite · OAuth 2.0 · Keychain · Apple Foundation Models |
+| [cadence](https://github.com/rajanshxrma/cadence) | Local-first health engine — correlates WHOOP/Apple Health with git activity and AI usage, personal baselines, on-device narration, served via MCP. Listed in [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers). | MCP · SQLite · OAuth 2.0 · Keychain · Apple Foundation Models |
 | [maxwell](https://github.com/rajanshxrma/maxwell) | Neural surface-code decoder for quantum error correction — beats minimum-weight perfect matching, trained and benchmarked entirely on-device | MLX · stim · PyMatching · transformer |
 
 Systems, infra & backend:
