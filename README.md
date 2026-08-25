@@ -1,6 +1,6 @@
 # Rajan Sharma
 
-**CS @ Georgia State (2026)** — software engineer working across two threads: on-device AI/ML on Apple's platform (Foundation Models, MLX, agentic systems) and production backend/systems engineering (Kubernetes, async services, concurrent data structures). Recent work includes a neural decoder that beats a classical baseline in quantum error correction, and open pull requests against Apple's own MLX inference framework.
+**CS @ Georgia State (2026)** — building on Apple Silicon: on-device AI/ML (Foundation Models, MLX, agentic systems) and iOS, backed by production systems engineering (Kubernetes, async services, concurrent data structures). Shipping software since 2020 — [reMemo](https://github.com/rajanshxrma/reMemo), a memo app on Amazon/Google Play/Samsung, built as a teenager learning to ship real software. Recent work includes a neural decoder that beats a classical baseline in quantum error correction, and open pull requests against Apple's own MLX inference framework.
 Open to **Software Engineer roles in AI/ML and backend/infra** — internships and new-grad.
 
 ## Highlights
@@ -21,6 +21,7 @@ Systems, infra & backend:
 | [sentinel](https://github.com/rajanshxrma/sentinel) | Self-healing Kubernetes operator — watches deployment health, triggers rate-limited rolling restarts before it just loops forever | Go · controller-runtime · CRDs · Helm |
 | [ferroledger](https://github.com/rajanshxrma/ferroledger) | Async double-entry ledger service — hand-rolled optimistic concurrency control, append-only WAL-durable log | Rust · Axum · PostgreSQL |
 | [corecache](https://github.com/rajanshxrma/corecache) | Header-only concurrent cache — real O(1) LRU plus a full Adaptive Replacement Cache, lock-free read path | C++20 |
+| [packetpulse](https://github.com/rajanshxrma/packetpulse) | Low-latency market-data handler — kernel-aware UDP multicast fast path, nanosecond-resolution latency histograms under load | C++20 |
 | [torchserve-sentinel](https://github.com/rajanshxrma/torchserve-sentinel) | Fine-tuned PII/sensitive-data token classifier behind a batched endpoint, with drift monitoring | Python · DistilBERT · FastAPI · Prometheus/Grafana |
 | [spendtrack](https://github.com/rajanshxrma/spendtrack) | Native Android spend/receipt tracker, integer-cent accounting | Kotlin · Jetpack Compose · Room |
 
@@ -34,8 +35,10 @@ AI & on-device (Apple Foundation Models / MLX / MCP):
 | [orchard](https://github.com/rajanshxrma/orchard) | On-device agentic workflow engine — YAML pipelines compiled to LangGraph | LangGraph · Apple Foundation Models · MLX |
 | [cadence](https://github.com/rajanshxrma/cadence) | Local-first health engine — correlates WHOOP/Apple Health with git activity and AI usage, personal baselines, on-device narration, served via MCP. Listed in [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers). | MCP · SQLite · OAuth 2.0 · Keychain · Apple Foundation Models |
 | [cobux-oss](https://github.com/rajanshxrma/cobux-oss) | iOS book-wisdom companion — AI chat grounded only in your own highlights (model self-declares real citations, not inferred from retrieval), FSRS-6 spaced-repetition quiz, voice mode, Watch companion | SwiftUI · SwiftData · Claude API · FSRS-6 |
+| [tensortrace](https://github.com/rajanshxrma/tensortrace) | Metal compute kernel profiling and optimization harness — real GPU kernels, real measured speedups | Metal · Apple Silicon |
+| [preftune](https://github.com/rajanshxrma/preftune) | Local SFT-then-DPO LoRA fine-tuning — honest before/after preference-accuracy results, including a real degenerate-collapse finding | MLX · LoRA · Apple Silicon |
 
-Applied engineering: a connected four-service backend suite over one domain (airport ops) — [aerolane](https://github.com/rajanshxrma/aerolane) (Spring Boot 3 · Keycloak SSO · PostgreSQL · Docker · K8s), [checkride](https://github.com/rajanshxrma/checkride) (its QA automation framework — REST Assured · Selenium · Testcontainers · Gatling), [tarmac](https://github.com/rajanshxrma/tarmac) (event-driven incident dispatch — Kafka retry/DLQ · MongoDB), and [conveyor](https://github.com/rajanshxrma/conveyor) (batch ETL — Spring Batch 5 · skip/retry + quarantine). Also built two early AI/cloud projects: [switchboard-ai](https://github.com/rajanshxrma/switchboard-ai) (Twilio Media Streams voice agents on GPT-4o) and [finance-rag](https://github.com/rajanshxrma/finance-rag) (RAG over bank statements, Supabase pgvector).
+Applied engineering: a connected four-service backend suite over one domain (airport ops) — [aerolane](https://github.com/rajanshxrma/aerolane) (Spring Boot 3 · Keycloak SSO · PostgreSQL · Docker · K8s), [checkride](https://github.com/rajanshxrma/checkride) (its QA automation framework — REST Assured · Selenium · Testcontainers · Gatling), [tarmac](https://github.com/rajanshxrma/tarmac) (event-driven incident dispatch — Kafka retry/DLQ · MongoDB), and [conveyor](https://github.com/rajanshxrma/conveyor) (batch ETL — Spring Batch 5 · skip/retry + quarantine).
 
 ## Tools
 **Languages:** Java, Python, Swift, Go, Rust, C++, Kotlin
